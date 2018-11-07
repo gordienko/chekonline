@@ -22,7 +22,7 @@ module Chekonline
           'Qty' => qty, # The number in thousandths
           'Price' => price, # Unit price
           'PayAttribute' => pay_attribute, # Sign of the method of calculation
-          'TaxId' => tax_id, # Код налога
+          'TaxId' => tax_id, # Tax code
           'Description' => description # Heading item
       }
     end
