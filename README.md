@@ -27,7 +27,7 @@ $ gem install chekonline
 How to use my plugin.
 
 ```ruby
-co = chekonline::Client.new(mode: 'production',
+co = Chekonline::Client.new(mode: 'production',
                              cert: "#{Rails.root}/config/chekonline/production.crt",
                              key: "#{Rails.root}/config/chekonline/production.key")
 co.add_line(qty: 1000,
